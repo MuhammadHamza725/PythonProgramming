@@ -1,0 +1,10 @@
+Program:
+
+Radius = float(input("Enter radius of circle: "))
+Area = 3.1459*Radius**2
+print("Area of Circle = ", Area)
+
+Output:
+
+Enter radius of circle: 1.1
+Area of Circle =  3.806539000000001

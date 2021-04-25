@@ -1,0 +1,16 @@
+Program:
+
+def Hamza(data):
+  if len(data) == len(set(data)):
+    print("Sequence of number is different")
+  else:
+    print("Sequence of number is not different")
+
+
+Hamza([1,5,7,9])
+Hamza([2,4,5,5,7,9])
+
+Output:
+
+Sequence of number is different
+Sequence of number is not different

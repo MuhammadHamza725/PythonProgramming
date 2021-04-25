@@ -1,0 +1,24 @@
+Program:
+
+HamzaList = [5, 4, 8, 2, 12, 1, 5, 16, 3, 9]
+
+for j in range(10):
+  if(len(HamzaList) > 2):
+    print(HamzaList[2])
+    HamzaList.pop(2)
+  else:
+    print(HamzaList[0])
+    HamzaList.pop(0)
+
+Output:
+
+8
+2
+12
+1
+5
+16
+3
+9
+5
+4

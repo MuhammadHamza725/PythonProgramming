@@ -1,0 +1,21 @@
+Program:
+
+Hamza = 0
+HamzaList = []
+HamzaTuple = ()
+for j in range(4):
+  Hamza = int(input("Enter a number: "))
+  HamzaList.append(Hamza)
+
+HamzaTuple = tuple(HamzaList)
+print("List : ", HamzaList)
+print("Tuple : ", HamzaTuple)
+
+Output:
+
+Enter a number: 3
+Enter a number: 5
+Enter a number: 7
+Enter a number: 23
+List :  [3, 5, 7, 23]
+Tuple :  (3, 5, 7, 23)
